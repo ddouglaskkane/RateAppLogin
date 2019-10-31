@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateAppLogin", "RateAppLogin\RateAppLogin.csproj", "{C91B5A69-FA6C-40C1-BFB5-9D90255C0C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateAppLogin.Tests", "RateAppLogin.Tests\RateAppLogin.Tests.csproj", "{9CD650CA-DC59-42A1-BFFD-D1874B817E07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C91B5A69-FA6C-40C1-BFB5-9D90255C0C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91B5A69-FA6C-40C1-BFB5-9D90255C0C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91B5A69-FA6C-40C1-BFB5-9D90255C0C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91B5A69-FA6C-40C1-BFB5-9D90255C0C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD650CA-DC59-42A1-BFFD-D1874B817E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD650CA-DC59-42A1-BFFD-D1874B817E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD650CA-DC59-42A1-BFFD-D1874B817E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD650CA-DC59-42A1-BFFD-D1874B817E07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {468735B2-F70D-4313-BBF0-8D24808FC3B9}
+	EndGlobalSection
+EndGlobal

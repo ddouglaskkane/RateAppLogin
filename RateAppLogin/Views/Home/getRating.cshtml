@@ -1,0 +1,29 @@
+﻿@model RateAppLogin.Models.Ratings
+@{ ViewBag.Title = "Get Rating by Id";}
+
+    <h2>@Html.ActionLink("View Rate List", "rateList", "")</h2>
+
+@if (Model != null)
+{
+    <h2>Rating</h2>
+    <table class="table table-sm table-striped table-bordered m-2">
+        <thead><tr><th>Rate</th><th>Rate Text</th></tr></thead>
+        <tbody>
+            <tr>
+                @if (Model.RateID < 2)
+                {
+                    <td>Excelent</td>
+                }
+                @if (@Model.RateID == 2)
+                {
+                    <td>Moderate</td>
+                }
+                @if (@Model.RateID > 2)
+                {
+                    <td>Needs Improvement</td>
+                }
+                <td>@Model.RateTxt </td>
+            </tr>
+        </tbody>
+    </table>
+}

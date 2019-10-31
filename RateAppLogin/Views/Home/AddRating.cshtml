@@ -1,0 +1,20 @@
+﻿@{ ViewBag.Title = "Add a Rating";}
+
+@*@Html.DropDownList("Rating", (SelectList)ViewBag.CategoryList, "Select Rating")*@
+
+<h2>@Html.ActionLink("View Rate List", "rateList", "")</h2>
+<form asp-action="AddRating" method="post">
+    <div class="form-group">
+        <label for="RateID">Rating:</label>
+
+        @Html.DropDownList("RateID", new List<SelectListItem>() { new SelectListItem { Text = "Excelent", Value = "1" }, new SelectListItem { Text = "Moderate", Value = "2" }, new SelectListItem { Text = "Needs Improvement", Value = "3" } })
+   
+    </div>
+    <div class="form-group">
+        <label for="RateTxt">Rate Text:</label>
+        <input class="form-control" name="RateTxt" maxlength=250 />
+    </div>
+    <div class="text-center panel-body">
+        <button type="submit" class="btn btn-sm btn-primary">Add</button>
+    </div>
+</form>
